@@ -8,7 +8,7 @@ public class Factorial {
     }
 
     public static void main(String[] args) {
-        String input = System.console().readLine("Masukkan Bilangan: ");
+        String input = System.console().readLine("Masukkan Angka Bilangan: ");
         int bilangan = Integer.parseInt(input);
 
         int hasil = factorial(bilangan);

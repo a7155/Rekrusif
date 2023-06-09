@@ -10,10 +10,10 @@ public class Fibonacci {
     }
 
     public static void main(String[] args) {
-        String input = System.console().readLine("Masukkan Batas Deret Bilangan Fibonacci: ");
+        String input = System.console().readLine("Masukkan Batas Angka Deret Bilangan Fibonacci: ");
         int x = Integer.parseInt(input);
 
-        System.out.println("Deret Fibonacci:");
+        System.out.println("Deret Bilangan Fibonacci:");
         for (int i = 0; i < x; i++) {
             System.out.print(fibonacci(i) + " ");
         }
